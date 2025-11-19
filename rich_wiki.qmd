@@ -112,8 +112,6 @@ bibliography: references.bib
     -   Offenbaren Assoziationen, gegenseitige Anerkennung und kulturelle Bedeutung\
     -   Ergänzen genealogische Analysen um symbolische Dimensionen der Elitevernetzung
 
-
-
 ## Methodisches Vorgehen
 
 -   Verknüpfung der Forbes-Listen mit Wikidata & Wikipedia.
@@ -193,7 +191,7 @@ Wissensgraphen sind definiert als Graphen von Daten, die Wissen über die reale 
 
 ## Die Stärken von Wikidata für die Sozialwissenschaften {.smaller}
 
--   Wikidata als Content-Provider: stellt strukturierte, menschen- und maschinenlesbare Informationen zu verschiedenen Themen bereit →  Abfragesprache SPARQL
+-   Wikidata als Content-Provider: stellt strukturierte, menschen- und maschinenlesbare Informationen zu verschiedenen Themen bereit → Abfragesprache SPARQL
 -   Wikidata als Anbieter linked open data: Links zu anderen Datenbanken über externe Identifikatoren (z.B. Twitter, ORCID, Filmdatenbanken)
 -   Wikidata als eine wachsende Wissensbasis: Sozialwissenschaftl. können zu Wikidata beitragen, indem sie ihre Daten importieren oder ihre Daten mit bestehenden Datensätzen verknüpfen (z. B. Comparative Legislators Database)
 -   Wikidata ist mehrsprachig: Recherche ohne Sprachbarrieren, Named Entity Linking
@@ -281,11 +279,9 @@ Wissensgraphen sind definiert als Graphen von Daten, die Wissen über die reale 
 -   https://w.wiki/AYtT
 :::
 
-## Deskriptive Statistik{.larger}
+## Deskriptive Statistik {.larger}
 
 ![](pics/descriptives_pres.png){.absolute top="100" left="0" width="1000"}
-
-
 
 ::: notes
 -   
@@ -295,7 +291,7 @@ Wissensgraphen sind definiert als Graphen von Daten, die Wissen über die reale 
 
 # 1. Wie sind die globalen Milliardäre durch familiäre Beziehungen miteinander verbunden, einschließlich der Beziehungen zwischen den Generationen und der ehelichen Beziehungen?
 
-## Netzwerk der Milliardäre: mind. 5 pro Netzwerk 
+## Netzwerk der Milliardäre: mind. 5 pro Netzwerk
 
 ![](pics/p_fam_5.jpeg){fig-align="center"}
 
@@ -304,27 +300,27 @@ Wissensgraphen sind definiert als Graphen von Daten, die Wissen über die reale 
 -   Research questions: Assortative mating, Strategic marriages, processes of social closure
 :::
 
-## Größte Familiennetzwerke von Milliardären 
+## Größte Familiennetzwerke von Milliardären
 
 ![](pics/p_fam_13.jpeg){fig-align="center"}
 
 # 2. Inwieweit verbinden diese Familiennetzwerke Milliardäre mit politischen Eliten?
 
-## Familiennetzwerk von Milliardären und Politikern (weltweit) 
+## Familiennetzwerk von Milliardären und Politikern (weltweit)
 
 ![](pics/p_fam_poli.jpeg){fig-align="center"}
 
-## Familiennetzwerke mit Milliardären und Politikern (nur USA) 
+## Familiennetzwerke mit Milliardären und Politikern (nur USA)
 
 ![](pics/p_rich_pol.jpeg){fig-align="center"}
 
 # 3. Wie sind die Milliardäre durch Wikipedia-Verweise miteinander verbunden, was auf Muster symbolischer oder reputationsbezogener Verbindungen hinweist?
 
-## Links zwischen Wikipedia-Seiten von Milliardären 
+## Links zwischen Wikipedia-Seiten von Milliardären
 
 ![](pics/links_all_bil2l.jpeg){fig-align="center"}
 
-## Links zwischen Wikipedia-Seiten von Milliardären und Politikern 
+## Links zwischen Wikipedia-Seiten von Milliardären und Politikern
 
 ![](pics/links_pol.jpeg){fig-align="center"}
 
