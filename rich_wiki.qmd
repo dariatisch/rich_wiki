@@ -1,8 +1,8 @@
 ---
-title: "Verflechtungen der ökonomischen Elite:<br> Verwendung von Wikidata und Wikipedia für die Analyse sozialer Netzwerke"
+title: "Reichtums- und Elitenforschung mit Wikipedia und Wikidata:<br> Insbesondere Analyse sozialer Netzwerke"
 #Mapping  Elite Interconnections: Using Wikidata and Wikipedia for Social Network Analysis
-author: "<br> DGS Kongress 2025 <br> <br> Daria Tisch and Franziska Pradel <br>  <br> Max-Planck-Institut für Gesellschaftsforschung"
-subtitle: "Mapping  Elite Interconnections: Using Wikidata and Wikipedia for Social Network Analysis"  
+author: "<br> Die unsichtbare Spitze. Neue Ansätze zur Analyse wirtschaftlicher Eliten und von Vermögensungleichheit<br> <br> Daria Tisch (und Franziska Pradel) <br>  <br> Max-Planck-Institut für Gesellschaftsforschung"
+subtitle: ""  
 format: 
   revealjs:
     theme: [default, custom.scss]
@@ -55,9 +55,9 @@ bibliography: references.bib
 
 -   Erschließen neue Möglichkeiten für die Erforschung von Eliten
 
-## Fokus dieser Studie
+## Fokus dieses Vortrags
 
--   Wie können Wikipedia und Wikidata für die Sozialforschung genutzt werden?
+-   Wie können Wikipedia und Wikidata für die Rechtumsforschung genutzt werden?
 
 -   Fallbeispiel: globale Milliardär:innen (Forbes 2010–2025, N = 4796)
 
@@ -124,11 +124,11 @@ bibliography: references.bib
 
 # Daten
 
-## Die Milliardäre der Welt auf Wikidata
+## Die MilliardärInnen der Welt auf Wikidata
 
--   Datenbank: Forbes Milliardäre, 2010-2025
+-   Datenbank: Forbes MilliardärInnen, 2010-2025
 
--   N = 4,796 Milliardäre
+-   N = 4,796 MilliardärInnen
 
 -   Halbautomatischer Abgleich mit Wikidata mit Hilfe von OpenRefine
 
@@ -189,6 +189,33 @@ Wissensgraphen sind definiert als Graphen von Daten, die Wissen über die reale 
 -   occupation of Father of father of Bill Gates
 :::
 
+
+
+## Query: What is the place of birth of Bill Gates' grandfather?
+
+<iframe src="https://w.wiki/AYt9" width="100%" height="500px">
+
+</iframe>
+
+[Link to query](https://w.wiki/AYt9)
+
+::: notes
+-   place of birth of grandfather of Bill Gates
+:::
+
+## Query: How many employees does Bill Gates have?
+
+<iframe src="https://w.wiki/AYtT" width="100%" height="500px">
+
+</iframe>
+
+[Link to query](https://w.wiki/AYtT)
+
+::: notes
+-   https://w.wiki/AYtT
+:::
+
+
 ## Die Stärken von Wikidata für die Sozialwissenschaften {.smaller}
 
 -   Wikidata als Content-Provider: stellt strukturierte, menschen- und maschinenlesbare Informationen zu verschiedenen Themen bereit → Abfragesprache SPARQL
@@ -216,68 +243,7 @@ Wissensgraphen sind definiert als Graphen von Daten, die Wissen über die reale 
 -   accuracy of the data is not guaranteed, and the perspectives and biases of the editors might influence the information provided
 :::
 
-## Frühere sozialwissenschaftliche Forschung mit Wikidata
 
--   Messung und Modellierung der Dynamik von politischen Elitenetzwerken [@yalcin2021]
--   Scientometrical analyses [@seidlmayer2020]
--   Comparative Legislators Database (politische, soziodemografische, berufliche, Online-Präsenz, öffentliche Aufmerksamkeit und visuelle Informationen zu über 45.000 zeitgenössischen und historischen Politikern) [@gobel2022]
--   Geschlechtsspezifischer Unterschiede [@klein2016]
--   Soziale Schließung an der Spitze der deutschen Vermögensverteilung [@tisch2023]
-
-::: notes
--   
-:::
-
-## Application: How to use Wikidata
-
--   Use the language SPARQL to formulate questions (queries) for knowledge databases
-
--   Wikidata Query Service (<https://query.wikidata.org/>)
-
--   WikidataR is a read-write API client library for Wikidata [@shafee2022] (to send SPARQL queries to the Wikidata Query Service SPARQL endpoint)
-
--   To learn writing SPARQL queries, Wikidata's tutorial page (<https://www.wikidata.org/wiki/Wikidata:SPARQL_tutorial>) and the examples at the Wikidata Query Service are helpful
-
-::: notes
--   With the right database, a SPARQL query could answer questions like “what is the most popular tonality in music?” or “which character was portrayed by the most actors?” or “what’s the distribution of blood types?” or “which authors’ works entered the public domain this year?”.
-:::
-
-## Queries
-
-<iframe src="https://query.wikidata.org/" width="100%" height="500px">
-
-</iframe>
-
-[Wikidata Query Service](https://query.wikidata.org/)
-
-::: notes
--   show different example quieries in the wikidata querie service
--   occupation of Father of father of Bill Gates
-:::
-
-## Query: What is the place of birth of Bill Gates' grandfather?
-
-<iframe src="https://w.wiki/AYt9" width="100%" height="500px">
-
-</iframe>
-
-[Link to query](https://w.wiki/AYt9)
-
-::: notes
--   place of birth of grandfather of Bill Gates
-:::
-
-## Query: How many employees does Bill Gates have?
-
-<iframe src="https://w.wiki/AYtT" width="100%" height="500px">
-
-</iframe>
-
-[Link to query](https://w.wiki/AYtT)
-
-::: notes
--   https://w.wiki/AYtT
-:::
 
 ## Deskriptive Statistik {.larger}
 
@@ -289,40 +255,56 @@ Wissensgraphen sind definiert als Graphen von Daten, die Wissen über die reale 
 
 # Ergebnisse
 
-# 1. Wie sind die globalen Milliardäre durch familiäre Beziehungen miteinander verbunden, einschließlich der Beziehungen zwischen den Generationen und der ehelichen Beziehungen?
+# 1. Wie sind die globalen MilliardärInnen durch familiäre Beziehungen miteinander verbunden, einschließlich der Beziehungen zwischen den Generationen und der ehelichen Beziehungen?
 
-## Netzwerk der Milliardäre: mind. 5 pro Netzwerk
+## Netzwerk der MilliardärInnen: mind. 5 pro Netzwerk
 
 ![](pics/p_fam_5.jpeg){fig-align="center"}
 
 ::: notes
+- At least 738 billionaires (15% of all billionaires or 25% of the billionaires identified in Wikidata
+- At least 227 billionaires have four or more family members who are also billionaires. This corresponds to 5% of all billionaires or 8% of the billionaires identified in Wikidata
 -   I show now one example of how to use WikiData to better understand that is describe the global billionaires: Family webs.
 -   Research questions: Assortative mating, Strategic marriages, processes of social closure
 :::
 
-## Größte Familiennetzwerke von Milliardären
+## Größte Familiennetzwerke von MilliardärInnen
 
 ![](pics/p_fam_13.jpeg){fig-align="center"}
 
-# 2. Inwieweit verbinden diese Familiennetzwerke Milliardäre mit politischen Eliten?
+## Probability of having another billionaire on the family web
 
-## Familiennetzwerk von Milliardären und Politikern (weltweit)
+![](pics/tab01.png){fig-align="center"}
 
-![](pics/p_fam_poli.jpeg){fig-align="center"}
+# 2. Inwieweit verbinden diese Familiennetzwerke MilliardärInnen mit politischen Eliten?
 
-## Familiennetzwerke mit Milliardären und Politikern (nur USA)
+## Familiennetzwerk von MilliardärInnen und PolitikerInnen  (weltweit)
+
+![](pics/p_fam_poli2.jpeg){fig-align="center"}
+::: notes
+Globally, 201 billionaires—4% of all billionaires—have at least one politician (i.e., a person with a “position held” property on Wikidata) in their family web.
+:::
+## Probability of having a politician on their family web
+
+![](pics/tab03.png){fig-align="center"}
+
+## Familiennetzwerke mit MilliardärInnen und PolitikerInnen (nur USA)
 
 ![](pics/p_rich_pol.jpeg){fig-align="center"}
+::: notes
+There are 11 family webs, comprising 2% of billionaires (20 of 1,207) and 1% of politicians (24 of 2,472).
+:::
 
-# 3. Wie sind die Milliardäre durch Wikipedia-Verweise miteinander verbunden, was auf Muster symbolischer oder reputationsbezogener Verbindungen hinweist?
+# 3. Wie sind die MilliardärInnen durch Wikipedia-Verweise mit PolitikerInnen verbunden, was auf Muster symbolischer oder reputationsbezogener Verbindungen hinweist?
 
-## Links zwischen Wikipedia-Seiten von Milliardären
 
-![](pics/links_all_bil2l.jpeg){fig-align="center"}
-
-## Links zwischen Wikipedia-Seiten von Milliardären und Politikern
+## Links zwischen Wikipedia-Seiten von MilliardärInnen und PolitikerInnen
 
 ![](pics/links_pol.jpeg){fig-align="center"}
+
+## ERGM estimating the likelihood of a hyperlink between a billionaire and a politician Wikipedia page
+
+![](pics/tab04.png){fig-align="center"}
 
 ## Beitrag der Studie
 
