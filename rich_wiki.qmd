@@ -281,9 +281,11 @@ Wissensgraphen sind definiert als Graphen von Daten, die Wissen über die reale 
 ## Familiennetzwerk von MilliardärInnen und PolitikerInnen  (weltweit)
 
 ![](pics/p_fam_poli2.jpeg){fig-align="center"}
+
 ::: notes
 Globally, 201 billionaires—4% of all billionaires—have at least one politician (i.e., a person with a “position held” property on Wikidata) in their family web.
 :::
+
 ## Probability of having a politician on their family web
 
 ![](pics/tab03.png){fig-align="center"}
